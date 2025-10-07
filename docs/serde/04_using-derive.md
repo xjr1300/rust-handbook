@@ -35,7 +35,7 @@ serde_json = "1.0"
 これで、Serdeのカスタム導出を使用する`src/main.rs`は次のようになります。
 
 ```rust
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]
 struct Point {
