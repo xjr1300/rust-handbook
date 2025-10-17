@@ -9,7 +9,7 @@ fn main() {
         // 3秒後にメインスレッドを再開
         println!("child thread: sleeping in three seconds");
         thread::sleep(Duration::from_secs(3));
-        println!("child thread: git a token to main thread (unpark)");
+        println!("child thread: get a token to main thread (unpark)");
         main_handle.unpark();
     });
 
