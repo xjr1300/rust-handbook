@@ -12,3 +12,4 @@
   - 和訳
     - [イントロダクション](./docs/google-cloud-client-libraries/01-introduction.md)
     - [開発環境の準備](./docs/google-cloud-client-libraries/02-setting-up-your-development-environment.md)
+    - [Cloud ShellでRustを設定する](./docs/google-cloud-client-libraries/03-setting-up-rust-on-cloud-shell.md)
