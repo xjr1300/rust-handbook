@@ -1,5 +1,7 @@
 # Cloud ShellでRustを設定する
 
+<https://googleapis.github.io/google-cloud-rust/setting_up_rust_on_cloud_shell.html>
+
 Cloud Shellは、小さな例とテストを実行する素晴らしい環境です。
 このガイドは、Cloud ShellにRustを設置し、Cloud Clientライブラリの1つをインストールする方法を紹介します。
 

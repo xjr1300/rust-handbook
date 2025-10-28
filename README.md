@@ -13,3 +13,4 @@
     - [イントロダクション](./docs/google-cloud-client-libraries/01-introduction.md)
     - [開発環境の準備](./docs/google-cloud-client-libraries/02-setting-up-your-development-environment.md)
     - [Cloud ShellでRustを設定する](./docs/google-cloud-client-libraries/03-setting-up-rust-on-cloud-shell.md)
+    - [クライアントを初期化する方法](./docs/google-cloud-client-libraries/04-how-to-initialize-a-client.md)
