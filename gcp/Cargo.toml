@@ -1,11 +1,14 @@
 [workspace]
 resolver = "3"
-members = ["dev-env", "vertex-api"]
+members = ["cloud-storage", "dev-env", "vertex-api"]
 
 [workspace.dependencies]
+bytes = "1.10.1"
 google-cloud-aiplatform-v1 = { version = "1.2.0", default-features = false, features = [
   "prediction-service",
 ] }
 google-cloud-gax = "1.2.0"
 google-cloud-secretmanager-v1 = "1.1.1"
+google-cloud-storage = "1.2.0"
 tokio = { version = "1.48.0", features = ["macros"] }
+uuid = { version = "1.18.1", features = ["v4"] }
