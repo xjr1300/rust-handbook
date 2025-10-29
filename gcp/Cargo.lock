@@ -313,6 +313,45 @@ dependencies = [
 ]
 
 [[package]]
+name = "google-cloud-aiplatform-v1"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5b2ee3b41a637f859cf250a3dd8b8e2db261b48720eda84acf9cd19348aef802"
+dependencies = [
+ "async-trait",
+ "bytes",
+ "google-cloud-api",
+ "google-cloud-gax",
+ "google-cloud-gax-internal",
+ "google-cloud-iam-v1",
+ "google-cloud-location",
+ "google-cloud-longrunning",
+ "google-cloud-lro",
+ "google-cloud-rpc",
+ "google-cloud-type",
+ "google-cloud-wkt",
+ "lazy_static",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_with",
+ "tracing",
+]
+
+[[package]]
+name = "google-cloud-api"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ee6526cfcf0c6c8945d9f1fb7a32c843dc08535f7547e2a30c1945e693699a32"
+dependencies = [
+ "bytes",
+ "google-cloud-wkt",
+ "serde",
+ "serde_json",
+ "serde_with",
+]
+
+[[package]]
 name = "google-cloud-auth"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -414,6 +453,40 @@ dependencies = [
  "serde_json",
  "serde_with",
  "tracing",
+]
+
+[[package]]
+name = "google-cloud-longrunning"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "398201f50d0dd0180105628c370ba5dae77a3f5e842eebce494f451caee96371"
+dependencies = [
+ "async-trait",
+ "bytes",
+ "google-cloud-gax",
+ "google-cloud-gax-internal",
+ "google-cloud-rpc",
+ "google-cloud-wkt",
+ "lazy_static",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_with",
+ "tracing",
+]
+
+[[package]]
+name = "google-cloud-lro"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a93fd80965a47da86e1d21c90dcd10858b859e6c702c5c6e1b383686692ae73e"
+dependencies = [
+ "google-cloud-gax",
+ "google-cloud-longrunning",
+ "google-cloud-rpc",
+ "google-cloud-wkt",
+ "serde",
+ "tokio",
 ]
 
 [[package]]
@@ -1615,6 +1688,14 @@ name = "utf8_iter"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b6c140620e7ffbb22c2dee59cafe6084a59b5ffc27a8859a5f0d494b5d52b6be"
+
+[[package]]
+name = "vertex-api"
+version = "0.1.0"
+dependencies = [
+ "google-cloud-aiplatform-v1",
+ "tokio",
+]
 
 [[package]]
 name = "want"

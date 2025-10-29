@@ -1,0 +1,16 @@
+[package]
+name = "vertex-api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+google-cloud-aiplatform-v1.workspace = true
+tokio.workspace = true
+
+[[bin]]
+name = "prompt"
+path = "src/prompt.rs"
+
+[[bin]]
+name = "prompt-and-image"
+path = "src/prompt_and_image.rs"
