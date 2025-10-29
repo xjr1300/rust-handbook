@@ -1,4 +1,4 @@
-# イントロダクション
+# 1. イントロダクション
 
 <https://googleapis.github.io/google-cloud-rust/introduction.html>
 

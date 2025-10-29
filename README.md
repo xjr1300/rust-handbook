@@ -10,7 +10,8 @@
 - Google Cloud Client Library for Rust
   - [原典](https://googleapis.github.io/google-cloud-rust/)
   - 和訳
-    - [イントロダクション](./docs/google-cloud-client-libraries/01-introduction.md)
-    - [開発環境の準備](./docs/google-cloud-client-libraries/02-setting-up-your-development-environment.md)
-    - [Cloud ShellでRustを設定する](./docs/google-cloud-client-libraries/03-setting-up-rust-on-cloud-shell.md)
-    - [クライアントを初期化する方法](./docs/google-cloud-client-libraries/04-how-to-initialize-a-client.md)
+    - [1. イントロダクション](./docs/google-cloud-client-libraries/01-introduction.md)
+    - [2. 開発環境の準備](./docs/google-cloud-client-libraries/02-setting-up-your-development-environment.md)
+    - [3. Cloud ShellでRustを設定する](./docs/google-cloud-client-libraries/03-setting-up-rust-on-cloud-shell.md)
+    - [4. クライアントを初期化する方法](./docs/google-cloud-client-libraries/04-how-to-initialize-a-client.md)
+    - [5. Vertex AI Gemini APIを使用してテキストを生成する](./docs/google-cloud-client-libraries/05-generate-text-using-the-vertex-ai-gemini-api.md)

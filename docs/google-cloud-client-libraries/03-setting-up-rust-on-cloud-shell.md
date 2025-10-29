@@ -1,4 +1,4 @@
-# Cloud ShellでRustを設定する
+# 3. Cloud ShellでRustを設定する
 
 <https://googleapis.github.io/google-cloud-rust/setting_up_rust_on_cloud_shell.html>
 

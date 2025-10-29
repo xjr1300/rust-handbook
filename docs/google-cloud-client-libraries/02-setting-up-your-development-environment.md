@@ -1,4 +1,4 @@
-# 開発環境の準備
+# 2. 開発環境の準備
 
 <https://googleapis.github.io/google-cloud-rust/setting_up_your_development_environment.html>
 

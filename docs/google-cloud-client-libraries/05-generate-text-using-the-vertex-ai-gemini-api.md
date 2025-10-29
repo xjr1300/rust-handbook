@@ -1,4 +1,4 @@
-# Vertex AI Gemini APIを使用してテキストを生成する
+# 5. Vertex AI Gemini APIを使用してテキストを生成する
 
 <https://googleapis.github.io/google-cloud-rust/generate_text_using_the_vertex_ai_gemini_api.html>
 

@@ -1,4 +1,4 @@
-# クライアントを初期化する方法
+# 4. クライアントを初期化する方法
 
 <https://googleapis.github.io/google-cloud-rust/initialize_a_client.html>
 
