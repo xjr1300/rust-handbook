@@ -141,6 +141,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "bytes",
+ "google-cloud-gax",
  "google-cloud-storage",
  "tokio",
  "uuid",

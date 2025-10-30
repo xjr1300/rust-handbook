@@ -3,13 +3,13 @@
 [Cloud Storage](https://cloud.google.com/storage)オブジェクトを書き込むクライアントAPIは、アプリケーションによって提供される型（例：ファイルハンドル、バイト列、ストリームなど）からペイロード（データを）をプッシュします。
 あるアプリケーションはスレッド内でペイロードを生成し、サービスにオブジェクトのペイロードを「プッシュ」します。
 
-> Cloud Storageにデータを書き込むAPIは、アプリケーションが用意したデータソース（ファイルやストリームなど）から内容を読み取って、オブジェクトとしてアップロードする。
+> Cloud Storageにデータを書き込むAPIは、アプリケーションが用意したデータソース（ファイルやストリームなど）から内容をプルして（読み取って）、オブジェクトとしてアップロードする。
 
 このガイドは、データソースのプッシュを使用して、[Cloud Storage](https://cloud.google.com/storage)にオブジェクトを書き込む方法を紹介します。
 
 ## 事前条件
 
-このガイドは、[支払いが有効](https://cloud.google.com/billing/docs/how-to/verify-billing-enabled#confirm_billing_is_enabled_on_a_project)な[Google Cloudプロジェクト](https://cloud.google.com/resource-manager/docs/creating-managing-projects)と、そのプロジェクトにCloud Storageバケットが存在することを想定しています。
+このガイドは、[支払いが有効](https://cloud.google.com/billing/docs/how-to/verify-billing-enabled#confirm_billing_is_enabled_on_a_project)な[Google Cloudプロジェクト](https://cloud.google.com/resource-manager/docs/creating-managing-projects)と、そのプロジェクトにCloud Storageバケットが存在していることを想定しています。
 
 ## 依存関係としてクライアントライブラリを追加する
 

@@ -16,3 +16,5 @@
     - [4. クライアントを初期化する方法](./docs/google-cloud-client-libraries/04-how-to-initialize-a-client.md)
     - [5. Vertex AI Gemini APIを使用してテキストを生成する](./docs/google-cloud-client-libraries/05-generate-text-using-the-vertex-ai-gemini-api.md)
     - [6. Google Cloud Storageを使用する](./docs/google-cloud-client-libraries/06-using-google-cloud-storage.md)
+      - [6.1 オブジェクトの書き込み時にデータをプッシュする](./docs/google-cloud-client-libraries/06-01-push-data-on-object-writes.md)
+      - [6.2 オブジェクトの書き換え](./docs/google-cloud-client-libraries/06-02-rewriting-objects.md)

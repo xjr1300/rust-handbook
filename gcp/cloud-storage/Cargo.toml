@@ -6,6 +6,7 @@ edition = "2024"
 [dependencies]
 anyhow.workspace = true
 bytes.workspace = true
+google-cloud-gax.workspace = true
 google-cloud-storage.workspace = true
 tokio.workspace = true
 uuid.workspace = true
@@ -17,3 +18,7 @@ path = "src/quickstart.rs"
 [[bin]]
 name = "pushing-object-data"
 path = "src/pushing-object-data.rs"
+
+[[bin]]
+name = "rewriting-objects"
+path = "src/rewriting-objects.rs"
