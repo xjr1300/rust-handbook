@@ -139,6 +139,7 @@ dependencies = [
 name = "cloud-storage"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "bytes",
  "google-cloud-storage",
  "tokio",

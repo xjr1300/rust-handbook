@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow.workspace = true
 bytes.workspace = true
 google-cloud-storage.workspace = true
 tokio.workspace = true
@@ -12,3 +13,7 @@ uuid.workspace = true
 [[bin]]
 name = "quickstart"
 path = "src/quickstart.rs"
+
+[[bin]]
+name = "pushing-object-data"
+path = "src/pushing-object-data.rs"
