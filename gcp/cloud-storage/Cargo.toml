@@ -6,6 +6,7 @@ edition = "2024"
 [dependencies]
 anyhow.workspace = true
 bytes.workspace = true
+futures.workspace = true
 google-cloud-gax.workspace = true
 google-cloud-storage.workspace = true
 tokio.workspace = true
@@ -22,3 +23,7 @@ path = "src/pushing-object-data.rs"
 [[bin]]
 name = "rewriting-objects"
 path = "src/rewriting-objects.rs"
+
+[[bin]]
+name = "download-large-objects"
+path = "src/download-large-objects.rs"

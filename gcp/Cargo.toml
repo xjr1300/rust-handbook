@@ -5,6 +5,7 @@ members = ["cloud-storage", "dev-env", "vertex-api"]
 [workspace.dependencies]
 anyhow = "1.0.100"
 bytes = "1.10.1"
+futures = "0.3.31"
 google-cloud-aiplatform-v1 = { version = "1.2.0", default-features = false, features = [
   "prediction-service",
 ] }

@@ -18,3 +18,4 @@
     - [6. Google Cloud Storageを使用する](./docs/google-cloud-client-libraries/06-using-google-cloud-storage.md)
       - [6.1 オブジェクトの書き込み時にデータをプッシュする](./docs/google-cloud-client-libraries/06-01-push-data-on-object-writes.md)
       - [6.2 オブジェクトの書き換え](./docs/google-cloud-client-libraries/06-02-rewriting-objects.md)
+      - [6.3 大きなオブジェクトのダウンロード速度の向上](./docs/google-cloud-client-libraries/06-03-speed-up-large-object-downloads.md)
