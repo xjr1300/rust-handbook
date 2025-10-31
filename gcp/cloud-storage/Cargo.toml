@@ -12,6 +12,9 @@ google-cloud-storage.workspace = true
 tokio.workspace = true
 uuid.workspace = true
 
+[dev-dependencies]
+mockall = "0.13.1"
+
 [[bin]]
 name = "quickstart"
 path = "src/quickstart.rs"
@@ -31,3 +34,7 @@ path = "src/download-large-objects.rs"
 [[bin]]
 name = "terminate-upload"
 path = "src/terminate-upload.rs"
+
+[[bin]]
+name = "mocking"
+path = "src/mocking.rs"

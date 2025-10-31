@@ -19,3 +19,5 @@
       - [6.1 オブジェクトの書き込み時にデータをプッシュする](./docs/google-cloud-client-libraries/06-01-push-data-on-object-writes.md)
       - [6.2 オブジェクトの書き換え](./docs/google-cloud-client-libraries/06-02-rewriting-objects.md)
       - [6.3 大きなオブジェクトのダウンロード速度の向上](./docs/google-cloud-client-libraries/06-03-speed-up-large-object-downloads.md)
+      - [6.4 オブジェクトの書き込みを停止するためにエラーを使用する](./docs/google-cloud-client-libraries/06-04-use-errors-to-terminate-writes.md)
+      - [6.5 ストレージクライアントを使用してテストを記述する方法](./docs/google-cloud-client-libraries/06-05-how-to-write-tests-using-the-storage-client.md)
