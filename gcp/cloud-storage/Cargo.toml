@@ -27,3 +27,7 @@ path = "src/rewriting-objects.rs"
 [[bin]]
 name = "download-large-objects"
 path = "src/download-large-objects.rs"
+
+[[bin]]
+name = "terminate-upload"
+path = "src/terminate-upload.rs"
