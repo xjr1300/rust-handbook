@@ -1,0 +1,10 @@
+[package]
+name = "compute-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+google-cloud-compute-v1.workspace = true
+google-cloud-gax.workspace = true
+tokio.workspace = true

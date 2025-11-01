@@ -156,6 +156,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "compute-engine"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "google-cloud-compute-v1",
+ "google-cloud-gax",
+ "tokio",
+]
+
+[[package]]
 name = "core-foundation"
 version = "0.10.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -510,6 +520,27 @@ dependencies = [
  "thiserror",
  "time",
  "tokio",
+]
+
+[[package]]
+name = "google-cloud-compute-v1"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "aa2e2e2949c3591c1163018be9ee410c599fedb80908203554c688e074fece82"
+dependencies = [
+ "async-trait",
+ "bytes",
+ "google-cloud-gax",
+ "google-cloud-gax-internal",
+ "google-cloud-lro",
+ "google-cloud-rpc",
+ "google-cloud-wkt",
+ "lazy_static",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_with",
+ "tracing",
 ]
 
 [[package]]
