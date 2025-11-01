@@ -1,13 +1,13 @@
 # Rustハンドブック
 
-- Under the hood: `Vec<T>`
+- **Under the hood: `Vec<T>`**
   - [原典](https://marma.dev/articles/2025/under-the-hood-vec-t)
   - [和訳](./docs/under-the-hood-vec.md)
-- Serde
+- **Serde**
   - [原典](https://serde.rs/)
   - [和訳](./docs/serde/01_overview.md)
 - [スレッドのパーキングとアンパーキング](./docs/thread-parking-and-unparking.md)
-- Google Cloud Client Library for Rust
+- **Google Cloud Client Library for Rust**
   - [原典](https://googleapis.github.io/google-cloud-rust/)
   - 和訳
     - [1. イントロダクション](./docs/google-cloud-client-libraries/01-introduction.md)
@@ -24,3 +24,4 @@
     - [7. Compute Engine APIを使用する](./docs/google-cloud-client-libraries/07-using-the-compute-engine-api.md)
     - [8. フィールドマスクを使用してリソースをアップデートする](./docs/google-cloud-client-libraries/08-update-a-resource-using-a-field-mask.md)
     - [9. 再試行ポリシーを構成する](./docs/google-cloud-client-libraries/09-configuring-retry-policies.md)
+    - [10. エラー処理](./docs/google-cloud-client-libraries/10-error-handling.md)
