@@ -1,0 +1,11 @@
+[package]
+name = "updating-resource"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+google-cloud-secretmanager-v1.workspace = true
+google-cloud-gax.workspace = true
+google-cloud-wkt.workspace = true
+tokio.workspace = true
