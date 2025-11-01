@@ -4,6 +4,7 @@ members = [
   "cloud-storage",
   "compute-engine",
   "dev-env",
+  "retry-policy",
   "updating-resource",
   "vertex-api",
 ]

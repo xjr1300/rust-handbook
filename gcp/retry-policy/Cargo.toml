@@ -1,0 +1,22 @@
+[package]
+name = "retry-policy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+google-cloud-gax.workspace = true
+google-cloud-secretmanager-v1.workspace = true
+tokio.workspace = true
+
+[[bin]]
+name = "default-retry-policy"
+path = "src/default-retry-policy.rs"
+
+[[bin]]
+name = "default-retry-policy-with-limit"
+path = "src/default-retry-policy-with-limit.rs"
+
+[[bin]]
+name = "override-retry-policy"
+path = "src/override-retry-policy.rs"

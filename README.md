@@ -22,3 +22,5 @@
       - [6.4 オブジェクトの書き込みを停止するためにエラーを使用する](./docs/google-cloud-client-libraries/06-04-use-errors-to-terminate-writes.md)
       - [6.5 ストレージクライアントを使用してテストを記述する方法](./docs/google-cloud-client-libraries/06-05-how-to-write-tests-using-the-storage-client.md)
     - [7. Compute Engine APIを使用する](./docs/google-cloud-client-libraries/07-using-the-compute-engine-api.md)
+    - [8. フィールドマスクを使用してリソースをアップデートする](./docs/google-cloud-client-libraries/08-update-a-resource-using-a-field-mask.md)
+    - [9. 再試行ポリシーを構成する](./docs/google-cloud-client-libraries/09-configuring-retry-policies.md)
