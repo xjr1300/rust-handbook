@@ -5,7 +5,7 @@ members = [
   "compute-engine",
   "dev-env",
   "error-handling",
-  "examine-error-details",
+  "examine-error-details", "handling-binding-errors",
   "retry-policy",
   "updating-resource",
   "vertex-api",

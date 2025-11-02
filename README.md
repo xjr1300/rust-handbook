@@ -25,3 +25,5 @@
     - [8. フィールドマスクを使用してリソースをアップデートする](./docs/google-cloud-client-libraries/08-update-a-resource-using-a-field-mask.md)
     - [9. 再試行ポリシーを構成する](./docs/google-cloud-client-libraries/09-configuring-retry-policies.md)
     - [10. エラー処理](./docs/google-cloud-client-libraries/10-error-handling.md)
+    - [11. エラーの詳細を調査する](./docs/google-cloud-client-libraries/11-examine-error-details.md)
+    - [12. バインディングエラーを処理する](./docs/google-cloud-client-libraries/12-handling-binding-errors.md)
