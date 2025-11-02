@@ -5,6 +5,7 @@ members = [
   "compute-engine",
   "dev-env",
   "error-handling",
+  "examine-error-details",
   "retry-policy",
   "updating-resource",
   "vertex-api",
@@ -20,6 +21,7 @@ google-cloud-aiplatform-v1 = { version = "1.2.0", default-features = false, feat
 ] }
 google-cloud-compute-v1 = "0.2.0"
 google-cloud-gax = "1.2.0"
+google-cloud-language-v2 = "1.1.0"
 google-cloud-secretmanager-v1 = "1.1.1"
 google-cloud-storage = "1.2.0"
 google-cloud-wkt = "1.1.0"

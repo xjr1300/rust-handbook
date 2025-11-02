@@ -320,6 +320,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "examine-error-details"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "google-cloud-gax",
+ "google-cloud-language-v2",
+ "tokio",
+]
+
+[[package]]
 name = "find-msvc-tools"
 version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -613,6 +623,25 @@ dependencies = [
  "google-cloud-gax",
  "google-cloud-gax-internal",
  "google-cloud-type",
+ "google-cloud-wkt",
+ "lazy_static",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_with",
+ "tracing",
+]
+
+[[package]]
+name = "google-cloud-language-v2"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "457d0ec0fe700dc5a7529348e89aeaf97b63cdd58ee479151fbee7dde7321b66"
+dependencies = [
+ "async-trait",
+ "bytes",
+ "google-cloud-gax",
+ "google-cloud-gax-internal",
  "google-cloud-wkt",
  "lazy_static",
  "reqwest",
