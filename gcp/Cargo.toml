@@ -5,7 +5,8 @@ members = [
   "compute-engine",
   "dev-env",
   "error-handling",
-  "examine-error-details", "handling-binding-errors",
+  "examine-error-details",
+  "handling-binding-errors",
   "retry-policy",
   "updating-resource",
   "vertex-api",
@@ -20,7 +21,7 @@ google-cloud-aiplatform-v1 = { version = "1.2.0", default-features = false, feat
   "prediction-service",
 ] }
 google-cloud-compute-v1 = "0.2.0"
-google-cloud-gax = "1.2.0"
+google-cloud-gax = { version = "1.2.0", features = ["unstable-stream"] }
 google-cloud-language-v2 = "1.1.0"
 google-cloud-secretmanager-v1 = "1.1.1"
 google-cloud-storage = "1.2.0"
