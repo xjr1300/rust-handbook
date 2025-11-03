@@ -1,0 +1,12 @@
+[package]
+name = "lro"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+google-cloud-longrunning.workspace = true
+google-cloud-lro.workspace = true
+google-cloud-storage.workspace = true
+tokio.workspace = true
+uuid.workspace = true

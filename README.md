@@ -28,3 +28,4 @@
     - [11. エラーの詳細を調査する](./docs/google-cloud-client-libraries/11-examine-error-details.md)
     - [12. バインディングエラーを処理する](./docs/google-cloud-client-libraries/12-handling-binding-errors.md)
     - [13. リスト操作を実行する](./docs/google-cloud-client-libraries/13-working-with-list-operations.md)
+    - [14. 長時間かかる操作の実行](./docs/google-cloud-client-libraries/14-working-with-long-running-operations.md)
