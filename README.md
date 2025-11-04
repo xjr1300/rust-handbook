@@ -31,3 +31,5 @@
     - [14. 長時間かかる操作の実行](./docs/google-cloud-client-libraries/14-working-with-long-running-operations.md)
     - [15. ポーリングポリシーを構成する](./docs/google-cloud-client-libraries//15-configuring-polling-policies.md)
     - [16. クライアント使用したテストを記述する方法](./docs/google-cloud-client-libraries/16-how-to-write-tests-using-a-client.md)
+    - [17. 長時間かかる操作をテストする方法](./docs/google-cloud-client-libraries/17-how-to-write-tests-for-long-running-operations.md)
+    - [18. 列挙型の操作](./docs//google-cloud-client-libraries//18-working-with-enums.md)
