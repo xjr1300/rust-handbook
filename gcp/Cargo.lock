@@ -739,6 +739,29 @@ dependencies = [
 ]
 
 [[package]]
+name = "google-cloud-speech-v2"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2a3c7f16f427902ec9f32e76e6d689ccea2cab25f14a41ae25c8f8486bfc9098"
+dependencies = [
+ "async-trait",
+ "bytes",
+ "google-cloud-gax",
+ "google-cloud-gax-internal",
+ "google-cloud-location",
+ "google-cloud-longrunning",
+ "google-cloud-lro",
+ "google-cloud-rpc",
+ "google-cloud-wkt",
+ "lazy_static",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_with",
+ "tracing",
+]
+
+[[package]]
 name = "google-cloud-storage"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1971,6 +1994,17 @@ name = "termtree"
 version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8f50febec83f5ee1df3015341d8bd429f2d1cc62bcba7ea2076759d315084683"
+
+[[package]]
+name = "tests-using-client"
+version = "0.1.0"
+dependencies = [
+ "google-cloud-gax",
+ "google-cloud-lro",
+ "google-cloud-speech-v2",
+ "mockall",
+ "tokio",
+]
 
 [[package]]
 name = "thiserror"

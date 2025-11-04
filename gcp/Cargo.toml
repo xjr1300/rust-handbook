@@ -9,6 +9,7 @@ members = [
   "handling-binding-errors",
   "lro",
   "retry-policy",
+  "tests-using-client",
   "updating-resource",
   "vertex-api",
 ]
@@ -27,6 +28,7 @@ google-cloud-language-v2 = "1.1.0"
 google-cloud-longrunning = "1.2.0"
 google-cloud-lro = "1.1.0"
 google-cloud-secretmanager-v1 = "1.1.1"
+google-cloud-speech-v2 = "1.1.0"
 google-cloud-storage = "1.2.0"
 google-cloud-wkt = "1.1.0"
 tokio = { version = "1.48.0", features = ["macros"] }

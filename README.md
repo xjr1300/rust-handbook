@@ -30,3 +30,4 @@
     - [13. リスト操作を実行する](./docs/google-cloud-client-libraries/13-working-with-list-operations.md)
     - [14. 長時間かかる操作の実行](./docs/google-cloud-client-libraries/14-working-with-long-running-operations.md)
     - [15. ポーリングポリシーを構成する](./docs/google-cloud-client-libraries//15-configuring-polling-policies.md)
+    - [16. クライアント使用したテストを記述する方法](./docs/google-cloud-client-libraries/16-how-to-write-tests-using-a-client.md)

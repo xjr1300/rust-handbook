@@ -1,0 +1,13 @@
+[package]
+name = "tests-using-client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+google-cloud-gax.workspace = true
+google-cloud-lro.workspace = true
+google-cloud-speech-v2.workspace = true
+tokio.workspace = true
+
+[dev-dependencies]
+mockall = "0.13.1"
